@@ -6,11 +6,7 @@
 *
 * main - print quote
 *
-*
-*
 * Description: prints Dors's quote
-*
-*
 *
 * Return: Always 1 (Success)
 *
