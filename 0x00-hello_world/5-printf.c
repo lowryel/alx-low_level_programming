@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Entry - point
+ * main - Entry point
  *
- * Return exact output with printf function
+ * Return exact output with proper grammar, but the outcome is a piece of art,
  *
  * Return: Always 0 (Success)
  */
