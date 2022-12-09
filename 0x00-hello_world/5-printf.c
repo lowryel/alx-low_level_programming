@@ -6,7 +6,7 @@
  * Return exact output with printf function
  *
  * Return: Always 0 (Success)
- * /
+ */
 
 
 int main(void)
