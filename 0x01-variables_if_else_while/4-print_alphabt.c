@@ -1,4 +1,4 @@
-#include <stdiio.h>
+#include <stdio.h>
 
 /**
  * main - exclude (e and q)
