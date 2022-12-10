@@ -5,7 +5,7 @@
  *
  * Description: return base 16 characters to lowercase characters
  *
- * Retrun: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
