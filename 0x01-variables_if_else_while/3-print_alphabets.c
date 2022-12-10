@@ -8,10 +8,10 @@
  * Return: Always 0 (success)
  */
 
-int main(){
+int main(void)
+{
 
-	int i = 97, a=65;
-
+	int i = 97, a = 65;
 
 	while (i < 123)
 
@@ -22,7 +22,7 @@ int main(){
 
 	}
 
-	while (a<91)
+	while (a < 91)
 
 	{
 		putchar(a);
