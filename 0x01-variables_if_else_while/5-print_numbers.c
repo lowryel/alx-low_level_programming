@@ -10,13 +10,16 @@
 
 int main(void)
 {
-	int a;
+	int a = 48;
 
-	for (a = 0; a < 10; a++)
+	while (a <58)
 
 	{
-		printf("%.1d", a);
+		putchar(a);
+		a++;
 	}
+
+	putchar(10);
 
 	return (0);
 }
