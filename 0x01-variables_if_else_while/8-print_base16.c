@@ -3,7 +3,7 @@
 /**
  * main -lowercase base 16 characters
  *
- * Description: return base 16 characters in lowercase
+ * Description: return base 16 characters to lowercase characters
  *
  * Retrun: Always 0 (success)
  */
@@ -17,7 +17,7 @@ int main(void)
 
 			putchar(a + '0');
 		else if (a > 41)
-			putchar(a - 10 +'A');
+			putchar(a - 10 + 'A');
 		a++;
 	}
 	putchar(10);
