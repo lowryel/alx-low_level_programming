@@ -1,30 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - possible combination of single digit numbers
+ * main - combination of single digit numbers
  *
- * Description: return the possible combination of single digit numbers
+ * Description: return the possible combinations of single digit numbers
  *
  * Return: Always 0 (success)
  */
-
 int main (void)
 {
-	int a = 48;
+	int i = 48;
 
-	while (a < 58)
-
+	while (i < 58)
 	{
-		putchar(i);
-		if (a != 57)
+		putchar (i)
+
+		if (i != 57)
 		{
 			putchar(44);
 			putchar(32);
+
 		}
-		a++;
+		i++;
+
 	}
+	putchar(10);
 
-	putchar (10);
-
-	return (0);	
+	return (0);
 }
