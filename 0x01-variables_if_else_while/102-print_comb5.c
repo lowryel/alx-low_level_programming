@@ -3,47 +3,47 @@
 /**
  * main - print pairs of double digit combos
  *
- * Description: print pairs of double digit combos
+ * Description: print pairs of base 10 double digit combos
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i, j, k, m;
+	int a, b, c, d;
 
-	i = 48;
-	while (i < 58)
+	a = 48;
+	while (a < 58)
 	{
-		j = 48;
-		while (j < 58)
+		b = 48;
+		while (b < 58)
 		{
-			m = j + 1;
-			k = i;
-			while (k < 58)
+			d = b + 1;
+			c = a;
+			while (c < 58)
 			{
-				while (m < 58)
+				while (d < 58)
 				{
-					putchar(i);
-					putchar(j);
+					putchar(a);
+					putchar(b);
 					putchar(32);
-					putchar(k);
-					putchar(m);
+					putchar(c);
+					putchar(d);
 
-					if (i < 57 || j < 56 || k < 57 || m < 57)
+					if (a < 57 || b < 56 || c < 57 || d < 57)
 
 					{
 						putchar(44);
 						putchar(32);
 					}
-					m++;
+					d++;
 				}
-				m = 48;
-				k++;
+				d = 48;
+				c++;
 			}
-			j++;
+			b++;
 		}
-		i++;
+		a++;
 	}
 	putchar(10);
     
