@@ -30,7 +30,7 @@ int main(void)
 			}
 			a++;
 		}
-    		i++;
+		i++;
 
 	}
 
