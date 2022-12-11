@@ -26,7 +26,7 @@ int main(void)
 
 			while (c < 58)
 			{
-			
+
 				putchar(i);
 				putchar(a);
 				putchar(c);
