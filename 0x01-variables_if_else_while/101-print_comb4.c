@@ -22,6 +22,8 @@ int main(void)
 
 		while (a < 58)
 		{
+			c = a + 1;
+
 			while (c < 58)
 			{
 			
@@ -37,9 +39,9 @@ int main(void)
 				}
 				c++;
 			}
-			a++
+			a++;
 		}
-		i++
+		i++;
 
 	}
 	putchar(10);
