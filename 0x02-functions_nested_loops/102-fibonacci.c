@@ -31,7 +31,7 @@ int main(void)
 			printf("%lu, ", j);
 		}
 
-		k =j;
+		k = j;
 
 		j += i;
 
