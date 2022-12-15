@@ -3,6 +3,8 @@
 /**
  * main - Debugging.
  *
+ * Description: checking for positive or negative numbers
+ *
  * Return: 0
  */
 
