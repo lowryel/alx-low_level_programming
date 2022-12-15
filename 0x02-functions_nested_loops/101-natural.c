@@ -24,7 +24,7 @@ int main(void)
 		if ((start_num % 3 == 0) || (start_num % 5 == 0))
 
 		{
-			total = total + start_num
+			total = total + start_num;
 		}
 
 		else
