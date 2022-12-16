@@ -1,12 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_numbers - print nums 0 to 9
- *
- * Description: return single digit numbers
- *
- * Return: 0
+ * print_most_numbers - print nums 0 to 9,
+ * except 2 and 4
  */
 
 void print_most_numbers(void)
