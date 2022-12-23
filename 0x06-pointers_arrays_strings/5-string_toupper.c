@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *string_toupper - string to upper case
+ * string_toupper - changes all lowercase letters of a string to uppercase
  * @s: input string
  * Return: the pointer to the dest
  */
@@ -14,7 +14,6 @@ char *string_toupper(char *s)
 	{
 		if ((*(s + count) >= 97) && (*(s + count) <= 122))
 			*(s + count) = *(s + count) - 32;
-
 		count++;
 	}
 
